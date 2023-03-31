@@ -1,14 +1,28 @@
 * {
-    margin: 0;
-    padding: 0;
     font-size: 10px;
 }
 
+html{   /* DUDA: POR QUÉ TENGO QUE ESPECIFICAR EL WIDTH Y EL HEIGHT AQUI?? */
+    height: 100%;
+    width: 100%;
+}
+
 body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
 }
 
 #gant {
-    margin: 0 auto;
+    width: 100%;    /* DUDA: POR QUÉ NO SIRVE AUTO?? */
+    height: 100%;
+}
+
+svg {
     position: relative;
+    width: 100%;
+    height: 100%;
 }
